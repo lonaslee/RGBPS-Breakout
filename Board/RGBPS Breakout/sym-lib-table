@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "APDS-9999")(type "KiCad")(uri "D:/RGBPS Breakout/APDS-9999/APDS-9999.kicad_sym")(options "")(descr ""))
+)
