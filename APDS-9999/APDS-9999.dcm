@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP APDS-9999
+D Ambient Light Sensors Integrated Digital RGB+PS
+K
+F https://docs.broadcom.com/doc/APDS-9999-DS
+$ENDCMP
+#
+#End Doc Library
