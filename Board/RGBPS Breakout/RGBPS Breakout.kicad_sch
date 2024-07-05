@@ -1312,7 +1312,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 102.87) (xy 189.23 104.14)
+			(xy 194.31 100.33) (xy 194.31 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1332,7 +1332,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 102.87) (xy 177.8 102.87)
+			(xy 179.07 100.33) (xy 182.88 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1452,7 +1452,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 102.87) (xy 158.75 101.6)
+			(xy 163.83 100.33) (xy 163.83 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1622,7 +1622,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 102.87) (xy 185.42 102.87)
+			(xy 194.31 100.33) (xy 190.5 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1712,7 +1712,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 102.87) (xy 166.37 102.87)
+			(xy 163.83 100.33) (xy 171.45 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1731,8 +1731,8 @@
 		(uuid "fe8af8eb-4c18-460e-95b0-83c0b39bc5e5")
 	)
 	(rectangle
-		(start 154.94 91.44)
-		(end 195.58 111.76)
+		(start 160.02 88.9)
+		(end 200.66 109.22)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1744,7 +1744,7 @@
 	)
 	(rectangle
 		(start 50.8 66.04)
-		(end 144.78 139.7)
+		(end 144.78 142.24)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1767,7 +1767,7 @@
 		(uuid 7c64e56d-ca96-43e9-aa9f-e8e95720057d)
 	)
 	(label "0.006 Pow"
-		(at 179.07 106.68 0)
+		(at 184.15 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1911,7 +1911,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 181.61 102.87 90)
+		(at 186.69 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1920,7 +1920,7 @@
 		(fields_autoplaced yes)
 		(uuid "02ec212c-f65f-49e8-95a7-ea55b0a19e71")
 		(property "Reference" "R1"
-			(at 181.61 96.52 90)
+			(at 186.69 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1928,15 +1928,15 @@
 			)
 		)
 		(property "Value" "1.667"
-			(at 181.61 99.06 90)
+			(at 186.69 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 181.61 104.648 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 186.69 102.108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1945,7 +1945,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 102.87 0)
+			(at 186.69 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1954,7 +1954,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 181.61 102.87 0)
+			(at 186.69 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1979,7 +1979,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.23 104.14 0)
+		(at 194.31 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1988,7 +1988,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b37be01-9a6f-4cc0-9040-65a1f93373d1")
 		(property "Reference" "#PWR03"
-			(at 189.23 110.49 0)
+			(at 194.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1997,7 +1997,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 109.22 0)
+			(at 194.31 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2005,7 +2005,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 104.14 0)
+			(at 194.31 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2014,7 +2014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 104.14 0)
+			(at 194.31 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2023,7 +2023,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 104.14 0)
+			(at 194.31 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2045,7 +2045,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 170.18 102.87 0)
+		(at 175.26 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2054,7 +2054,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b78a0f9-4c66-4c80-9813-cffc65cadbc5")
 		(property "Reference" "D1"
-			(at 168.5925 96.52 0)
+			(at 173.6725 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,15 +2062,15 @@
 			)
 		)
 		(property "Value" "3.2V WHITE"
-			(at 168.5925 99.06 0)
+			(at 173.6725 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 170.18 102.87 0)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 175.26 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2079,7 +2079,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 102.87 0)
+			(at 175.26 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2088,7 +2088,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 170.18 102.87 0)
+			(at 175.26 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2139,7 +2139,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 114.808 85.09 90)
 			(effects
 				(font
@@ -2183,7 +2183,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 158.75 101.6 0)
+		(at 163.83 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2192,7 +2192,7 @@
 		(fields_autoplaced yes)
 		(uuid "533af218-b545-4477-b1c5-c0e06be615ce")
 		(property "Reference" "#PWR04"
-			(at 158.75 105.41 0)
+			(at 163.83 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2201,7 +2201,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 158.75 96.52 0)
+			(at 163.83 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2209,7 +2209,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 101.6 0)
+			(at 163.83 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2218,7 +2218,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 101.6 0)
+			(at 163.83 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2227,7 +2227,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 158.75 101.6 0)
+			(at 163.83 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2273,7 +2273,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 118.11 107.188 90)
 			(effects
 				(font
@@ -2340,7 +2340,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal"
 			(at 242.57 90.17 0)
 			(effects
 				(font
@@ -2407,7 +2407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 110.1852 114.3 0)
 			(effects
 				(font
@@ -2609,7 +2609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 110.1852 132.08 0)
 			(effects
 				(font
@@ -2744,7 +2744,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 107.188 85.09 90)
 			(effects
 				(font
@@ -2814,7 +2814,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 71.628 85.09 90)
 			(effects
 				(font
@@ -2950,7 +2950,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
 			(at 242.57 100.33 0)
 			(effects
 				(font
