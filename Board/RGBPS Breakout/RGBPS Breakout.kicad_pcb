@@ -510,7 +510,7 @@
 	(footprint "LED_SMD:LED_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "7f6ba21b-9de2-492e-b957-86915056faab")
-		(at 143.93 107.39)
+		(at 138.6 110)
 		(descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D1"
@@ -742,7 +742,7 @@
 	(footprint "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "95a61f6c-875d-419d-aa08-ec532dd25a83")
-		(at 144.06 98.42)
+		(at 129 95)
 		(descr "JST PH series connector, S4B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH top entry")
 		(property "Reference" "J1"
@@ -1909,7 +1909,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "d51205bd-4197-43e0-b7cb-207b0f2483d7")
-		(at 143.41 93.72)
+		(at 135 90)
 		(descr "Through hole angled pin header, 1x01, 2.54mm pitch, 6mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x01 2.54mm single row")
 		(property "Reference" "J2"
