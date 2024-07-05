@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "ef8d1498-06d2-44f8-a4a9-e0c3d83a66fa")
 	(paper "A4")
+	(title_block
+		(title "RGBPS Breakout")
+		(date "2024-07-05")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "APDS-9999:APDS-9999"
 			(exclude_from_sim no)
@@ -1776,6 +1781,45 @@
 			(justify left bottom)
 		)
 		(uuid "149fd4b2-ee2d-4d9f-9b70-2b8150b5e7ce")
+	)
+	(label "Sensor"
+		(at 50.8 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "634d16ce-d161-4654-89c3-db7d7f504775")
+	)
+	(label "Connectors"
+		(at 218.44 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbf10436-7e76-4d52-96c9-16e2fdc67627")
+	)
+	(label "LED"
+		(at 158.75 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5dbec94-5e71-45b6-8e88-7f35a50877be")
 	)
 	(global_label "SDA"
 		(shape input)
