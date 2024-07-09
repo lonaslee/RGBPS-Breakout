@@ -1,25 +1,27 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #SamacSys ECAD Model APDS-9999
-#/19731218/1432940/2.50/6/0/Integrated Circuit
+#/18675732/1432940/2.50/6/3/Integrated Circuit
 DEF APDS-9999 IC 0 30 Y Y 1 F N
 F0 "IC" 1050 300 50 H V L CNN
 F1 "APDS-9999" 1050 200 50 H V L CNN
-F2 "SON65P200X200X75-6N-D" 1050 100 50 H I L CNN
+F2 "APDS9999" 1050 100 50 H I L CNN
 F3 "https://docs.broadcom.com/doc/APDS-9999-DS" 1050 0 50 H I L CNN
-F4 "Ambient Light Sensors Integrated Digital RGB+PS" 1050 -100 50 H I L CNN "Description"
-F5 "0.75" 1050 -200 50 H I L CNN "Height"
-F6 "" 1050 -300 50 H I L CNN "Mouser Part Number"
-F7 "" 1050 -400 50 H I L CNN "Mouser Price/Stock"
-F8 "Avago Technologies" 1050 -500 50 H I L CNN "Manufacturer_Name"
-F9 "APDS-9999" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+F4 "Optical Sensor Ambient 470nm, 550nm, 610nm I2C 6-SMD Module" 1050 -100 50 H I L CNN "Description"
+F5 "0.8" 1050 -200 50 H I L CNN "Height"
+F6 "Avago Technologies" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "APDS-9999" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "630-APDS-9999" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/APDS-9999?qs=Cb2nCFKsA8qjJaAGveOY%252Bg%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1050 -800 50 H I L CNN "Arrow Price/Stock"
 DRAW
-X GND 1 0 0 200 R 50 50 0 0 W
-X INT 2 0 -100 200 R 50 50 0 0 O
-X VVCSEL 3 0 -200 200 R 50 50 0 0 W
-X SCL 6 1200 0 200 L 50 50 0 0 I
-X SDA 5 1200 -100 200 L 50 50 0 0 B
-X VDD 4 1200 -200 200 L 50 50 0 0 W
+X GND 1 1200 0 200 L 50 50 0 0 P
+X INT 2 1200 -100 200 L 50 50 0 0 P
+X VVCSEL 3 1200 -200 200 L 50 50 0 0 P
+X VDD 4 0 -200 200 R 50 50 0 0 P
+X SDA 5 0 -100 200 R 50 50 0 0 P
+X SCL 6 0 0 200 R 50 50 0 0 P
 P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
 ENDDRAW
 ENDDEF

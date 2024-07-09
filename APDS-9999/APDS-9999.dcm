@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP APDS-9999
-D Ambient Light Sensors Integrated Digital RGB+PS
+D Optical Sensor Ambient 470nm, 550nm, 610nm I2C 6-SMD Module
 K
 F https://docs.broadcom.com/doc/APDS-9999-DS
 $ENDCMP
